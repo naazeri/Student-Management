@@ -1,18 +1,34 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2015-07-02T20:48:29
+# Project created by QtCreator 2015-07-03T12:36:33
 #
 #-------------------------------------------------
 
-QT       += core
+QT       += core gui
 
-QT       -= gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Student_Management
-CONFIG   += console
-CONFIG   -= app_bundle
-
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp\
+        root.cpp \
+    newstudent.cpp \
+    studentinformation.cpp \
+    personinfo.cpp \
+    terminfo.cpp \
+    studentinfo.cpp \
+    datamanager.cpp
+
+HEADERS  += root.h \
+    newstudent.h \
+    studentinformation.h \
+    personinfo.h \
+    terminfo.h \
+    studentinfo.h \
+    datamanager.h
+
+FORMS    += root.ui \
+    newstudent.ui \
+    studentinformation.ui

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentInformation</class>
+ <widget class="QDialog" name="StudentInformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>585</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>اطلاعات دانشجویان</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="sortingEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="columnCount">
+         <number>18</number>
+        </property>
+        <column>
+         <property name="text">
+          <string>نام</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>نام خانوادگی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>نام پدر</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>کد ملی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>شماره شناسنامه</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>شماره دانشجویی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>نام دانشگاه</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>مقطع تحصیلی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>رشته تحصیلی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>گرایش</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>سال ورود</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>وضعیت تحصیلی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>مهمان از/به</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>نیم سال</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>سال تحصیلی</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>شماره ترم</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>تعداد واحد</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>تعداد دروس</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
